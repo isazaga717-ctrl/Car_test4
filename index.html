@@ -7,7 +7,9 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="hero">
+
+  <!-- Hero -->
+  <header class="hero animate-on-scroll">
     <div class="container">
       <h1>ТРАНСФЕР<br>С ПОВЫШЕННЫМ КОМФОРТОМ</h1>
       <p class="subtitle">Специальные тарифы для корпоративных клиентов</p>
@@ -15,7 +17,8 @@
     </div>
   </header>
 
-  <section class="section">
+  <!-- Выбор класса -->
+  <section class="section animate-on-scroll">
     <div class="container">
       <h2 class="section-title">Выберите класс авто</h2>
       <div id="vehicles" class="vehicles-grid">
@@ -24,51 +27,53 @@
     </div>
   </section>
 
-  <section class="section bg-light">
+  <!-- Преимущества -->
+  <section class="section bg-light animate-on-scroll">
     <div class="container">
       <h2 class="section-title">Единые стандарты обслуживания</h2>
       <div class="benefits-grid">
-        <div class="benefit">
-          <img src="icons/credit-card.svg" alt="Оплата">
-          <p>Безналичная оплата</p>
-          <small>По счёту или банковской картой</small>
+        <div class="benefit-card">
+          <div class="benefit-icon"><img src="https://bt-one.ru/wp-content/uploads/2023/06/tabler_credit-card.svg" alt="Оплата"></div>
+          <h3>Безналичная оплата</h3>
+          <p>По счёту или банковской картой</p>
         </div>
-        <div class="benefit">
-          <img src="icons/report-money.svg" alt="Цена">
-          <p>Фиксированная стоимость</p>
-          <small>При поездках по городу</small>
+        <div class="benefit-card">
+          <div class="benefit-icon"><img src="https://bt-one.ru/wp-content/uploads/2023/06/tabler_report-money.svg" alt="Цена"></div>
+          <h3>Фиксированная стоимость</h3>
+          <p>При поездках по городу</p>
         </div>
-        <div class="benefit">
-          <img src="icons/clock.svg" alt="Ожидание">
-          <p>Бесплатное ожидание</p>
-          <small>До 30 минут в аэропорту Оренбурга или на вокзале</small>
+        <div class="benefit-card">
+          <div class="benefit-icon"><img src="https://bt-one.ru/wp-content/uploads/2023/06/tabler_clock.svg" alt="Ожидание"></div>
+          <h3>Бесплатное ожидание</h3>
+          <p>До 30 минут в аэропорту Оренбурга</p>
         </div>
-        <div class="benefit">
-          <img src="icons/chalkboard.svg" alt="Табличка">
-          <p>Встреча с табличкой</p>
-          <small>С вашим именем или названием компании</small>
+        <div class="benefit-card">
+          <div class="benefit-icon"><img src="https://bt-one.ru/wp-content/uploads/2023/07/tabler_chalkboard-1-1.svg" alt="Табличка"></div>
+          <h3>Встреча с табличкой</h3>
+          <p>С вашим именем или названием компании</p>
         </div>
-        <div class="benefit">
-          <img src="icons/backpack.svg" alt="Багаж">
-          <p>Помощь с багажом</p>
-          <small>Водитель всё донесёт</small>
+        <div class="benefit-card">
+          <div class="benefit-icon"><img src="https://bt-one.ru/wp-content/uploads/2023/06/tabler_backpack.svg" alt="Багаж"></div>
+          <h3>Помощь с багажом</h3>
+          <p>Водитель всё донесёт</p>
         </div>
-        <div class="benefit">
-          <img src="icons/notification.svg" alt="СМС">
-          <p>Оповестим о водителе</p>
-          <small>Номер авто и водителя пришлём за 15 минут</small>
+        <div class="benefit-card">
+          <div class="benefit-icon"><img src="https://bt-one.ru/wp-content/uploads/2023/07/tabler_chalkboard-1.svg" alt="СМС"></div>
+          <h3>Оповестим о водителе</h3>
+          <p>Номер авто и водителя пришлём за 15 минут</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="section">
+  <!-- Услуги -->
+  <section class="section animate-on-scroll">
     <div class="container">
       <h2 class="section-title">Мы предлагаем</h2>
       <div class="services-grid">
-        <div class="service">
+        <div class="service-card">
           <img src="https://bt-one.ru/wp-content/uploads/2020/03/service1.png" alt="Трансфер">
-          <h3>Трансферы</h3>
+          <h3>Индивидуальные и групповые трансферы</h3>
           <p>Из аэропорта Оренбурга, вокзалов Орска и гостиниц по городу.</p>
           <ul>
             <li>Фиксированная цена</li>
@@ -76,7 +81,7 @@
             <li>Круглосуточно</li>
           </ul>
         </div>
-        <div class="service">
+        <div class="service-card">
           <img src="https://bt-one.ru/wp-content/uploads/2020/03/service2.png" alt="Перевозки">
           <h3>Перевозки по области</h3>
           <p>По Оренбургу, Орску, Бузулуку, Новотроицку и другим городам.</p>
@@ -86,7 +91,7 @@
             <li>Страхование пассажиров</li>
           </ul>
         </div>
-        <div class="service">
+        <div class="service-card">
           <img src="https://bt-one.ru/wp-content/uploads/2020/03/service3.png" alt="Аренда">
           <h3>Аренда с водителем</h3>
           <p>Для командировок, встреч, свадеб — без опознавательных знаков.</p>
@@ -95,10 +100,10 @@
             <li>Водители в деловой одежде</li>
           </ul>
         </div>
-        <div class="service">
+        <div class="service-card">
           <img src="https://bt-one.ru/wp-content/uploads/2020/03/service4.png" alt="Мероприятия">
           <h3>Транспорт на мероприятия</h3>
-          <p>Свадьбы, корпоративы, экскурсии, выписки — организуем всё.</p>
+          <p>Свадьбы, корпоративы, экскурсии — организуем всё.</p>
           <ul>
             <li>Мини- и полноразмерные автобусы</li>
             <li>Координатор на месте</li>
@@ -108,33 +113,35 @@
     </div>
   </section>
 
-  <section class="section bg-light">
-    <div class="container stats">
-      <div class="stat-item">
+  <!-- Цифры -->
+  <section class="section bg-light animate-on-scroll">
+    <div class="container stats-grid">
+      <div class="stat-box">
         <strong>5 ЛЕТ</strong>
         <p>Работаем в Оренбургской области</p>
       </div>
-      <div class="stat-item">
+      <div class="stat-box">
         <strong>30+ АВТО</strong>
         <p>В парке — только проверенные машины</p>
       </div>
-      <div class="stat-item">
+      <div class="stat-box">
         <strong>2 ОФИСА</strong>
         <p>В Оренбурге и Орске</p>
       </div>
     </div>
   </section>
 
-  <section class="section">
+  <!-- Корпоративным клиентам -->
+  <section class="section animate-on-scroll">
     <div class="container">
-      <h2 class="section-title">Для корпоративных клиентов</h2>
+      <h2 class="section-title">Для корпоративных клиентов и агентств</h2>
       <ul class="corporate-list">
-        <li>Безналичный расчёт, отсрочка платежа</li>
-        <li>Договор, акты, ЭДО</li>
-        <li>Индивидуальные тарифы</li>
         <li>Приоритетное обслуживание</li>
+        <li>Безналичный расчёт, отсрочка платежа</li>
+        <li>Индивидуальный подход к каждому заказу</li>
         <li>Круглосуточная поддержка 24/7</li>
         <li>Приём заказов по телефону, email или WhatsApp</li>
+        <li>Договор, акты, ЭДО</li>
       </ul>
       <div class="contact-box">
         <h3>Свяжитесь с нами:</h3>
