@@ -8,18 +8,13 @@
 </head>
 <body>
 
-  <!-- Hero с видео -->
+  <!-- Hero с локальным видео -->
   <section class="hero-video">
     <div class="video-overlay"></div>
-    <div class="video-container">
-      <iframe 
-        src="https://www.youtube.com/embed/YAFUyPp_238?autoplay=1&loop=1&playlist=YAFUyPp_238&mute=1&controls=0&showinfo=0&rel=0&modestbranding=1" 
-        frameborder="0" 
-        allow="autoplay; encrypted-media"
-        allowfullscreen
-        title="Фоновое видео"
-      ></iframe>
-    </div>
+    <video autoplay muted loop playsinline poster="images/poster.jpg">
+      <source src="videos/background.mp4" type="video/mp4">
+      Ваш браузер не поддерживает видео.
+    </video>
     <div class="container hero-content">
       <h1>ТРАНСФЕР<br>С ПОВЫШЕННЫМ КОМФОРТОМ</h1>
       <p class="subtitle">Специальные тарифы для корпоративных клиентов</p>
